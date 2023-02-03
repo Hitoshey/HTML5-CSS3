@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'love';
+            src: url(fontes/Lovebird\ Free.otf) format(opentype), url(fontes/Lovebird\ Free.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+            /* Tipos de format ()
+            - opentype (otf) 
+            - truetype (ttf) 
+            - embeded-opentype 
+            - truetype-aat (Apple Advanced Typography)
+            - svg 
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+        h1{
+            font-family: love;
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bungo stray dogs</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam suscipit quos fuga, adipisci, blanditiis esse distinctio fugiat veritatis in architecto, modi ipsum perspiciatis assumenda animi porro corrupti! Praesentium, sint nisi.</p>
+</body>
+</html>
